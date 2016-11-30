@@ -6,6 +6,7 @@
 <!--
 <a href="https://htmlpreview.github.io/?https://github.com/RishikeshVedpathak/ng-loader/blob/master/index.html">ng-loader Demo</a>
 -->
+![Alt text](/www/img/demo.gif?raw=true "Demo")
 
 <h2>Easy to integrate</h2>
 <i><b>Include jQuery library before ionic's angular library.</i></b><br>
