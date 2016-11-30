@@ -1,0 +1,31 @@
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-profile-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+    line-height: 30px;
+}
+
+[user-profile-header] {
+    background-image: url('/img/cover-image.jpg');
+}
+
+[user-profile-sub-header] {
+    height: 40px;
+    display: none;
+    background: #6e6e6e;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.user-profile-image {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
