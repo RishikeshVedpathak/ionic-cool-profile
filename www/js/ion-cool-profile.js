@@ -1,14 +1,8 @@
-/*!
- * Copyright 2016
- * http://rishivedpathak.com/
- *
- * ion-cool-profile
- * Native like parallax scrolling for profile page.
- *
- * By @rishi.vedpathak
- * 
- * Licensed under the MIT license. Please see LICENSE for more information.
- *
+/*
+ *  Author : Rishi Vedpathak
+ *  Date : 30/11/2016
+ *  Repository : ionic-cool-profile
+ *  The MIT License (MIT) - Copyright (c) [2015] [Rishikesh Vedpathak]
  */
 
 angular.module('ion-cool-profile', [])
