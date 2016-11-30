@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Ionic Cool Profile</title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <script src="js/jquery-1.12.2.js?VersionNumber"></script>
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/ion-cool-profile.js"></script>
+    <script src="js/app.js"></script>
+    <script src="cordova.js"></script>
+</head>
+
+<body ng-controller="AppCtrl">
+    <div user-profile-header class="text-center">
+        <div class="text-center">
+            <img class="user-profile-image" ng-src="img/user-profile.jpg">
+        </div>
+        <div class="user-profile-name ellipsis">Rishi Vedpathak</div>
+        <div class="row">
+            <div class="col col-30">
+                <h4>Friends</h4>
+                <div>550</div>
+            </div>
+            <div class="col col-30">
+                <h4>Messages</h4>
+                <div>24</div>
+            </div>
+            <div class="col col-30">
+                <h4>Photos</h4>
+                <div>172</div>
+            </div>
+        </div>
+    </div>
+    <div user-profile-sub-header>
+        <div class="row">
+            <i class="ion-android-arrow-back col col-10"></i>
+            <div class="col col-90">Rishi Vedpathak</div>
+        </div>
+    </div>
+    <ion-content ion-parallax-profile delegate-handle="profileScroll" bounce="false">
+        <p ng-repeat="val in [0,1,2,3,4,5,6,7,8,9]" class="card padding">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </ion-content>
+</body>
+
+</html>
