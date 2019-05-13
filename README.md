@@ -20,13 +20,13 @@
 <h2>Simple to use</h2>
 <h4>Add below three atrributes to your html page</h4>
 <i>
-<br><<div> <b>user-profile-header</b>>
+<br><div><<b>user-profile-header</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Header content like profile image, user name.
 <br>\</div>
-<br><<div> <b>user-profile-sub-header</b>>
+<br><div><<b>user-profile-sub-header</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Contents to be shown when user scroll up.
 <br>\</div>
-<br><<ion-content <b>ion-parallax-profile delegate-handle="profileScroll"</b>>
+<br><ion-content <<b>ion-parallax-profile delegate-handle="profileScroll"</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//User details.
 <br>\</ion-content>
 </i>
