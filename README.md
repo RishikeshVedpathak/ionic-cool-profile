@@ -3,10 +3,8 @@
 <i>"Easy to integrate, simple to use"</i>
 
 <h2>Demo</h2>
-<!--
-<a href="https://htmlpreview.github.io/?https://github.com/RishikeshVedpathak/ng-loader/blob/master/index.html">ng-loader Demo</a>
--->
-![Alt text](/www/img/demo.gif?raw=true "Demo")
+
+<img src="https://raw.githubusercontent.com/RishikeshVedpathak/ionic-cool-profile/master/www/img/demo.gif"/>
 
 <h2>Easy to integrate</h2>
 <i><b>Include jQuery library before ionic's angular library.</i></b><br>
@@ -22,13 +20,13 @@
 <h2>Simple to use</h2>
 <h4>Add below three atrributes to your html page</h4>
 <i>
-<br>\<div <b>user-profile-header</b>>
+<br><<div> <b>user-profile-header</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Header content like profile image, user name.
 <br>\</div>
-<br>\<div <b>user-profile-sub-header</b>>
+<br><<div> <b>user-profile-sub-header</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Contents to be shown when user scroll up.
 <br>\</div>
-<br>\<ion-content <b>ion-parallax-profile delegate-handle="profileScroll"</b>>
+<br><<ion-content <b>ion-parallax-profile delegate-handle="profileScroll"</b>>
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//User details.
 <br>\</ion-content>
 </i>
